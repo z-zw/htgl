@@ -10,5 +10,8 @@ export default {
     },
     SET_CATEDATA(state,pyload){
         state.cateData=pyload
+    },
+    SET_SPECSDATA(state,pyload){
+        state.specsData=pyload
     }
 }

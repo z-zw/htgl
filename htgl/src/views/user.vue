@@ -206,6 +206,7 @@ export default {
         if (res.code == 200) {
           this.getCount();
           this.getUserDataAction(this.pageInfo);
+           this.$message.success(res.msg);
         } else {
           this.$message.error(res.msg);
         }

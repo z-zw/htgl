@@ -10,5 +10,8 @@ export default {
     },
     cateData(state){
         return state.cateData
+    },
+    specsData(state){
+        return state.specsData
     }
 }

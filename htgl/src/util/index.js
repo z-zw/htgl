@@ -108,3 +108,33 @@ export function getCateedit(data){
 export function getCatedelete(data){
     return http.post('/catedelete',data)
 }
+
+
+//商品规格添加接口
+export function getSpecsadd(data){
+    return http.post('/specsadd',data)
+}
+//商品规格列表接口
+export function getSpecslist(params){
+    return http.get('/specslist',{
+        params
+    })
+}
+//商品规格总数（用于计算分页）
+export function getSpecscount(){
+    return http.get('/specscount')
+}
+//商品规格获取接口
+export function getSpecsinfo(params){
+    return http.get('/specsinfo',{
+        params
+    })
+}
+//商品规格修改接口
+export function getSpecsedit(data){
+    return http.post('/specsedit',data)
+}
+//商品规格删除接口
+export function getSpecsdelete(data){
+    return http.post('/specsdelete',data)
+}

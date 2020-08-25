@@ -1,4 +1,4 @@
-import {getMenulist,getRolelist,getUserlist,getCatelist} from '../util';
+import {getMenulist,getRolelist,getUserlist,getCatelist,getSpecslist} from '../util';
 export default {
     gettableDataAction({commit}){
             getMenulist({istree:1}).then((res) => {
@@ -19,5 +19,10 @@ export default {
             getCatelist({istree:1}).then(res=>{
               commit('SET_CATEDATA',res.list)
             })
-    }
+    },
+    getSpecsDataAction({commit},paInfo){
+      getSpecslist(paInfo).then(res=>{
+        commit('SET_SPECSDATA',res.list)
+      })
+}
 }
