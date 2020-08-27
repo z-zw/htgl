@@ -138,3 +138,81 @@ export function getSpecsedit(data){
 export function getSpecsdelete(data){
     return http.post('/specsdelete',data)
 }
+
+
+//添加商品管理
+export function getGoodsAdd(data){
+    return http.post('/goodsadd',data)
+}
+//商品管理总数（用于计算分页）
+export function getGoodsCount(){
+    return http.get('/goodscount')
+}
+//商品管理列表接口(分页)
+export function getGoodsList(params){
+    return http.get('/goodslist',{
+        params
+    })
+}
+//商品管理获取（一条）
+export function getGoodsInfo(params){
+    return http.get('/goodsinfo',{
+        params
+    })
+}
+//商品管理编辑事件
+export function getGoodsEdit(data){
+    return http.post('/goodsedit',data)
+}
+//商品管理删除事件
+export function getGoodsDel(data){
+    return http.post('/goodsdelete',data)
+}
+
+
+//轮播图添加接口
+export function getBanneradd(data){
+    return http.post('/banneradd',data)
+}
+//轮播图列表接口
+export function getBannerlist(){
+    return http.get('/bannerlist')
+}
+//轮播图获取接口
+export function getBannerinfo(params){
+    return http.get('/bannerinfo',{
+        params
+    })
+}
+//轮播图修改接口
+export function getBanneredit(data){
+    return http.post('/banneredit',data)
+}
+//轮播图删除接口
+export function getBannerdelete(data){
+    return http.post('/bannerdelete',data)
+}
+
+
+//秒杀活动添加接口
+export function getSeckadd(data){
+    return http.post('/seckadd',data)
+}
+//秒杀活动列表接口
+export function getSecklist(){
+    return http.get('/secklist')
+}
+//秒杀活动获取接口
+export function getSeckinfo(params){
+    return http.get('/seckinfo',{
+        params
+    })
+}
+//秒杀活动修改接口
+export function getSeckedit(data){
+    return http.post('/seckedit',data)
+}
+//秒杀活动删除接口
+export function getSeckdelete(data){
+    return http.post('/seckdelete',data)
+}

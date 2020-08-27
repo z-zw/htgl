@@ -1,7 +1,13 @@
 <template>
 <div>
 <el-container>
-  <el-header>xxx管理系统</el-header>
+  <el-header>
+    <p>xxx管理系统</p>
+    <div v-if="nickname">
+          用户名：{{nickname}}
+          <el-button @click='logout' type='danger' size='mini'>退出</el-button>
+        </div>
+    </el-header>
   <el-container>
     <v-nav></v-nav>
     <el-main>
@@ -22,9 +28,18 @@ components:{
 },
 data(){
    return {
+     nickname:''
    }
 },
+mounted() {
+  let userInfo  = sessionStorage.getItem('userInfo') ? JSON.parse(sessionStorage.getItem('userInfo')) : {}
+    this.nickname = userInfo.username
+},
 methods: {
+  logout(){
+      sessionStorage.removeItem('userInfo')
+      this.$router.push('/login')
+    }
 },
 }
 </script>
@@ -34,9 +49,14 @@ methods: {
     color: #333;
     text-align: center;
     height : 15vh;
+    line-height 10vh
   }
-  
-  
+  .el-header p{
+    float left
+  }
+   .el-header div{
+    float right 
+  }
   
   .el-main {
     background-color: #E9EEF3;

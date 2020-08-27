@@ -13,5 +13,14 @@ export default {
     },
     SET_SPECSDATA(state,pyload){
         state.specsData=pyload
+    },
+    SET_GOODSDATA(state,pyload){
+        state.goodsData=pyload
+    },
+    SET_BANNERDATA(state,pyload){
+        state.bannerData=pyload
+    },
+    SET_SECKDATA(state,pyload){
+        state.seckData=pyload
     }
 }

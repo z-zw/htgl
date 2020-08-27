@@ -3,5 +3,8 @@ export default {
     roleData:[],
     userData:[],
     cateData:[],
-    specsData:[]
+    specsData:[],
+    goodsData:[],
+    bannerData:[],
+    seckData:[]
 }

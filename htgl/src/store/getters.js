@@ -13,5 +13,14 @@ export default {
     },
     specsData(state){
         return state.specsData
+    },
+    goodsData(state){
+        return state.goodsData
+    },
+    bannerData(state){
+        return state.bannerData
+    },
+    seckData(state){
+        return state.seckData
     }
 }

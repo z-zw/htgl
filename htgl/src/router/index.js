@@ -3,8 +3,7 @@ import Router from 'vue-router'
 
 
 Vue.use(Router)
-
-export default new Router({
+const route = new Router({
   mode:'history',
   routes: [
    {
@@ -93,4 +92,22 @@ export default new Router({
      redirect:'/index'
    }
   ]
+});
+
+//全局前置导航钩子函数
+route.beforeEach((to, from, next) => {
+  //你跳转的页面是不是登录 是就 next
+  if (to.path == '/login') {
+    next()
+    return
+  }
+  //去的不是登录 ，就看是否登录，如果登录就next
+  let token = sessionStorage.getItem('userInfo') ? JSON.parse(sessionStorage.getItem('userInfo')).token : ''
+  if (token) {
+    next()
+    return
+  }
+  //以上都没有就跳转登录
+  next('/login')
 })
+export default route

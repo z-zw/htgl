@@ -48,7 +48,7 @@
           <el-input v-model="cateForm.catename" autocomplete="off"></el-input>
         </el-form-item>
 
-        <el-form-item prop="img" label="图片" :label-width="formLabelWidth">
+        <el-form-item prop="img" label="图片" :label-width="formLabelWidth" v-if="cateForm.pid!=0">
           <el-upload
             action="#"
             list-type="picture-card"
@@ -213,6 +213,7 @@ export default {
         status: 1,
       };
       this.fileLists =[];
+      this.imgUrl="",
       this.dialogFormVisible = false;
     },
     dels(id) {
