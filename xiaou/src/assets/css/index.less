@@ -1,0 +1,399 @@
+@charset "utf-8";
+@import "./public.css";
+@base:100;
+
+.wrap{
+    // 头部
+            header{
+        height: 85rem / @base;
+        padding: 44rem / @base 24rem / @base 0;
+        background-color: #fff;
+        border-bottom: 1rem / @base solid #e4e4e4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // logo
+        img{
+            width: 147rem / @base;
+            height: 33rem / @base;
+        }
+        // 搜索
+        .seach input{
+            width: 304rem / @base;
+            height: 39rem / @base;
+            text-align: center;
+            border-radius: 5rem / @base;
+            background-color: #eee;
+        }
+        // 设置
+        .set{
+            width: 56rem / @base;
+            height: 11rem / @base;
+            display: flex;
+            span{
+                display: inline-block;
+                width: 12rem / @base;
+                height: 11rem / @base;
+                background-color: #000;
+                border-radius: 50%;
+            }
+            span:nth-child(1),
+            span:nth-child(2)
+            {
+                margin-right: 10rem / @base;
+            }
+           
+        }
+        }
+    // 头部结束
+    // 导航
+            .nav{
+                  position: relative;
+                  font-size: 28rem / @base;
+                  color: #181818;
+                  line-height: 76rem / @base;
+                  padding-left: 12rem / @base ;
+                  background-color: #fff;
+            a{
+                float: left;
+                display: block;
+                height: 76rem / @base;
+                margin: 0 20rem / @base;
+                color: #1c1c1c;
+                
+            }
+            span{
+                float: left;
+                display: block;
+                width: 1rem / @base;
+                height: 32rem / @base;
+                background-color: #f1f1f1;
+               margin-top: 23rem / @base;
+            }
+            .first a{
+                box-sizing: border-box;
+                color: #eb1054;
+                border-bottom: 4rem / @base solid #df0331;
+            }
+            .item{
+                position: absolute;
+                right: 0;
+                width: 76rem / @base;
+                height: 76rem / @base;
+                background: url("../images/index_images/arrow.jpg") no-repeat center center;
+                background-size: 35rem / @base 19rem / @base;
+                background-color: #fff;
+            }
+        }
+    //    导航结束
+    // banner开始
+            .banner{
+                    overflow: hidden;
+                    img{
+                        width: 750rem / @base;
+                        height: 290rem / @base;
+                    }
+                    
+        }
+    // banner结束
+    // 菜单入口开始
+        .menu{
+            width: 750rem / @base;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30rem / @base;
+            img{
+                width: 64rem / @base;
+                height: 62rem / @base;
+                margin-top: 31rem / @base;
+            }
+            p{
+                font-size: 26rem / @base;
+                color: #6c6c6c;
+                line-height: 68rem / @base;
+            }
+        }
+        // 菜单入口结束
+        // 秒杀开始
+        .seckill{
+            width: 750rem / @base;
+            display:flex;
+            background-color: #fff;
+            .seckill-left{
+                width: 377rem / @base;
+                position: relative;
+                padding: 17rem / @base 0 0 17rem / @base;
+                .myimage{
+                    display: inline-block;
+                    width: 32rem / @base;
+                    height: 32rem / @base;
+                    background: url("../images/index_images/timer.jpg") no-repeat;
+                    background-size: 32rem / @base 32rem / @base;
+                    vertical-align: middle;
+                    margin-right: 12rem / @base;
+                }
+                .text{
+                    display: inline-block;
+                    font-size: 28rem / @base;
+                    color: #f9175f;
+                    vertical-align: middle;
+                    line-height: 31rem / @base;
+                }
+                p{
+                    font-size: 20rem / @base;
+                    color: #8a8a8a;
+                    line-height: 37rem / @base;
+                }
+                .time{
+                    margin-left: 4rem / @base;
+                    span{
+                        display: block;
+                        float: left;
+                        color: #000;
+                        font-size: 18rem / @base;
+                        line-height: 34rem / @base;
+                    }
+                    .timer{
+                        margin:0 6rem / @base 0 6rem / @base;
+                    }
+                     .times{
+                        width: 42rem / @base;
+                        height: 42rem / @base;
+                        background-color: #000;
+                        text-align: center;
+                        line-height: 42rem / @base;
+                        color: #fff;
+                        border-radius: 8rem / @base;
+                     } 
+                    .seckill-one{
+                        width: 96rem / @base;
+                        height: 40rem / @base;
+                        margin-left: 26rem / @base;
+                        text-align: center;
+                        line-height: 40rem / @base;
+                        background: url("../images/index_images/bg.jpg");
+                        background-size: 96rem / @base 40rem / @base;
+                        font-size: 26rem / @base;
+                    } 
+                }
+                img{
+                    width: 236rem / @base;
+                    height: 206rem / @base;
+                    margin:28rem / @base 0  18rem / @base 42rem / @base;
+                }
+                .price{
+                    position: absolute;
+                    bottom: 29rem / @base;
+                    right: 30rem / @base;
+                    width: 84rem / @base;
+                    height: 84rem / @base;
+                    background-color: #ff327a;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 84rem / @base;
+                    font-size: 22rem / @base ;
+                    border-radius: 50%;
+                }
+            }
+            .seckill-right{
+                border-left: 1rem / @base solid #f0f0f0;
+                .top{
+                    width: 371rem / @base;
+                    padding: 0 0 0 19rem / @base;
+                    border-bottom: 1rem / @base solid #f0f0f0;
+                    display: flex;
+                    justify-content: space-between;
+                        .text{
+                            display: inline-block;
+                            font-size: 28rem / @base;
+                            color: #f9175f;
+                            line-height: 31rem / @base;
+                            vertical-align: middle;
+                            padding-top: 19rem / @base;
+                        }
+                    .text-one{
+                        display: inline-block;
+                        width: 33rem / @base;
+                        height: 25rem / @base;
+                        background-color: #ff359f;
+                        vertical-align: middle;
+                        font-size: 18rem / @base;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 25rem / @base;
+                        margin-top: 19rem / @base;
+                        }
+                        p{
+                            font-size: 20rem / @base;
+                            color: #8a8a8a;
+                            line-height: 37rem / @base;
+                        }
+                        .item{
+                            width: 93rem / @base;
+                            height: 32rem / @base;
+                            margin-top: 26rem / @base;
+                        }
+                        .right{
+                            align-self: center;
+                            margin: 4rem / @base 0 5rem / @base 0   ;
+                            padding-right: 29rem / @base;
+                            img{
+                                width: 128rem / @base;
+                                height: 178rem / @base;
+                                
+                            }
+                        }
+                    }
+                    .bottom{
+                        display: flex;
+                        justify-content: space-between;
+                        .left{
+                            width: 188rem / @base;
+                            padding: 19rem / @base 0 0 19rem / @base;
+                            .text{
+                                display: inline-block;
+                                font-size: 28rem / @base;
+                                color: #f9175f;
+                                line-height: 31rem / @base;
+                            }
+                            p{
+                                font-size: 20rem / @base;
+                                color: #8a8a8a;
+                                line-height: 37rem / @base;
+                            }
+                            img{
+                                margin-left: 39rem / @base;
+                                width: 64rem / @base;
+                                height: 102rem / @base;
+                            }
+                        }
+                        .right{
+                            width: 188rem / @base;
+                            padding: 19rem / @base 0 0 19rem / @base;
+                            .text{
+                                display: inline-block;
+                                font-size: 28rem / @base;
+                                color: #f9175f;
+                                line-height: 31rem / @base;
+                            }
+                            p{
+                                font-size: 20rem / @base;
+                                color: #8a8a8a;
+                                line-height: 37rem / @base;
+                            }
+                            img{
+                                margin-left: 39rem / @base;
+                                width: 104rem / @base;
+                                height: 88rem / @base;
+                            }
+                        }
+                        
+                        
+                    }
+                    
+            }
+            
+        
+        }        
+    // 秒杀结束
+    // bar图
+        .bar{
+            overflow: hidden;
+            margin-top: 30rem / @base;
+            img{
+                width: 750rem / @base;
+                height: 190rem / @base;
+            }
+        }
+    // bar图结束
+    // 货物区开始
+        .goods{
+            margin-top: 30rem / @base;
+            padding-bottom: 28rem / @base;
+            width: 750rem / @base;
+            background-color: #fff;
+            .navs{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                line-height: 70rem / @base;
+                width: 750rem / @base;
+                height: 110rem / @base;
+               
+                .goods-nav{
+                    width: 176rem / @base;
+                    height: 68rem / @base;
+                    font-size: 28rem / @base;
+                    color: #0d0d0d;
+                    border-right: 1rem / @base solid #dfdfdf;
+                    border-bottom: 1rem / @base solid #dfdfdf;
+                    border-top: 1rem / @base solid #dfdfdf;
+                }
+                .naver{
+                    background-color: #f26b11;
+                    width: 177rem / @base;
+                    height: 70rem / @base;
+                    color: #fff;
+                    border: none;
+                }
+            }
+            .make-up{
+                margin: 0 auto ;
+                display: flex;
+                justify-content: center;
+                box-shadow: 0 0 20rem / @base rgba(0,0,0,.3);
+                width: 704rem / @base;
+                img{
+                    width: 216rem / @base;
+                    height: 220rem / @base;
+                    margin-top: 54rem / @base;
+                }
+                .describe{
+                    line-height: 54rem / @base;
+                   
+                    padding-left: 50rem / @base;
+                    p{
+                        margin-top: 44rem / @base;
+                        font-size: 28rem / @base;
+                        color: #1c1c1c;
+                       
+                    }
+                    span{
+                        display: block;
+                        
+                    }
+                    .price{
+                        color: #de3b3c;
+                        font-size: 24rem / @base;
+                    }
+                    .text{
+                        color: #9b9b9b;
+                        font-size: 20rem / @base;
+                    }
+                    .buy{
+                        margin-bottom: 36rem / @base;
+                        font-size: 24rem / @base;
+                        color: #fff;
+                        background-color: #f26b11;
+                        text-align: center;
+                        line-height: 52rem / @base;
+                        border-radius: 5rem / @base;
+                        width: 164rem / @base;
+                        height: 52rem / @base;
+                    }
+                }
+            }
+            .make-up-one{
+                margin-bottom: 130rem / @base;
+            }
+            .first,
+            .second{
+                  margin-bottom: 34rem / @base;
+            }
+        }
+        // 货物区结束
+       
+}

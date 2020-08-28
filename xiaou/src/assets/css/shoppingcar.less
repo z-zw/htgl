@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import "./public.css";
+@import "./order.css";
+@base:100;
+
+.wrap{
+background-color: #fff;
+    .car-goods{
+        margin-top: 30rem / @base;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 0 10rem / @base rgba(0,0,0,.3);
+        .icons{
+            margin-left: 24rem / @base;
+            position: relative;
+            width: 34rem / @base;
+            height: 34rem / @base;
+            border-radius: 50%;
+            border:1rem  / @base solid #b1271a;
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -7rem  / @base;
+                margin-left: -9rem  / @base;
+                width: 18rem  / @base;
+                height: 14rem  / @base;
+            }
+        }
+        img{
+            margin-left: 43rem / @base;
+            width: 102rem / @base;
+            height: 103rem / @base;
+        }
+        .first{
+            flex: 1;
+            margin-left: 35rem / @base;
+            p{
+                line-height: 55rem / @base;
+                
+            }
+            .one{
+                font-size: 25rem / @base;
+                color: #323232;
+            }
+            .two{
+                font-size: 22rem / @base;
+                color: #666;
+            }
+            .three{
+                font-size: 23rem / @base;
+                color: #e3393a;
+            }
+        }
+        .right{
+            margin-right: 31rem / @base;
+            height: 59rem / @base;
+            border: 1rem / @base solid #535353;
+            border-radius: 5rem / @base ;
+            text-align: center;
+            line-height: 59rem / @base;
+            span{
+                display: inline-block;
+                font-size: 23rem / @base;
+            }
+            .one{
+                width: 62rem / @base;
+                height: 59rem / @base;
+                border-right: 1rem / @base solid #535353;
+            }
+            .two{
+                width: 78rem / @base;
+                height: 59rem / @base;
+                border-right: 1rem / @base solid #535353;
+            }
+            .three{
+                width: 62rem / @base;
+                height: 59rem / @base;
+            }
+        }
+        .delete{
+            background-color: #e43a3d;
+            width: 98rem / @base;
+            height: 172rem / @base;
+            font-size: 22rem / @base;
+            color: #fff;
+            text-align: center;
+            line-height: 172rem / @base;
+        }
+    }
+    .car-one{
+        img{
+            margin-left: 0;
+        }
+    }
+    .car-two{
+        .icons{
+             border:1rem  / @base solid #cacaca;
+        }
+       
+    }
+    .car-three{
+        border-top: 1rem / @base solid #e5e5e5;
+        box-shadow: 0 0;
+        margin-top: 384rem / @base;
+        .left-one{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            span{
+                font-size: 22rem / @base;
+                color: #666;
+                display: block;
+                margin-left: 15rem / @base;
+            }
+        }
+        .center-one{
+            text-align: right;
+            p{
+                line-height: 46rem / @base;
+            }
+           .text-one{
+               font-size: 28rem / @base;
+               color: #323232;
+           }
+           .text-two{
+            color: #e33b3b;
+            font-size: 22rem / @base;
+           }
+           .text-three{
+               font-size: 18rem / @base;
+               color: #a4a4a4;
+           }
+        }
+        .right-one{
+            width: 247rem / @base;
+            height: 114rem / @base;
+            background-color: #f26b11;
+            font-size: 28rem / @base;
+            color: #fff;
+            text-align: center;
+            line-height:114rem / @base;
+        }
+    }
+}

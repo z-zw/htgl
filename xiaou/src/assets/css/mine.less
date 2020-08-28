@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import "./public.css";
+@import "./shoppingcar.css";
+@base: 100;
+.wrap{
+    background-color: #eee;
+    header{
+        border: none;
+
+    }
+    .head{
+       
+        display: flex;
+        align-items: center;
+       padding-bottom: 27rem / @base;
+        width: 750rem / @base;
+        background-color: #f26b11;
+        .head-one{
+            margin-left: 32rem / @base;
+                background-color: #fff;
+                position: relative;
+                border-radius: 50%;
+                width: 151rem / @base;
+                height: 151rem / @base;
+                
+            img{
+                position: absolute;
+                top: 50%;
+                margin-top: -71rem / @base;
+                left: 50%;
+                margin-left:  -71rem / @base;
+                border-radius: 50%;
+                width: 142rem / @base;
+                height: 142rem / @base;
+                
+            }
+        }
+        .head-two{
+            flex: 1;
+            margin-left: 25rem  / @base;
+            p{
+                font-size: 30rem / @base;
+                color: #fff;
+                line-height: 51rem / @base;
+            }
+            i{
+                font-size: 28rem / @base;
+                color: #000;
+            }
+        }
+        .head-three{
+            margin-right: 38rem / @base;
+            border-radius: 4rem / @base;
+            width: 159rem / @base;
+            height: 71rem / @base;
+            background-color: #fff;
+            font-size: 25rem / @base;
+            color: #f26a12;
+            text-align: center;
+            line-height: 71rem / @base;
+        }
+    }
+    .aside{
+        margin-bottom: 21rem / @base;
+        background-color: #fff;
+        padding-top: 34rem / @base;
+        padding-bottom: 34rem / @base;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        p{
+            font-size: 23rem / @base;
+            color: #646464;
+            line-height: 42rem / @base;
+        }
+        .aside-one{
+            
+            img{
+                width: 33rem / @base;
+                height: 31rem / @base   ;
+            }
+        }
+        .aside-two{
+            img{
+                width: 37rem / @base;
+                height: 30rem / @base   ;
+            }
+        }
+        .aside-three{
+            img{
+                width: 34rem / @base;
+                height: 29rem / @base   ;
+            }
+        }
+    }
+    
+    .bodys-first-one{
+        background-color: #fff;
+        padding-bottom: 250rem  / @base;
+        .bodys{
+            padding:0 37rem / @base  0;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1rem / @base solid #d9d9d9;
+                img:nth-of-type(2){
+                    width: 14rem / @base;
+                    height: 24rem / @base;
+                }
+            .bodys-one{
+                flex: 1;
+                margin-left: 26rem / @base;
+                span{
+                    font-size: 26rem / @base;
+                    color: #5c5c5c;
+                    line-height: 111rem / @base;
+                }
+            }
+        }
+        .body-first{
+            img:nth-child(1){
+                width: 31rem / @base;
+                height: 38rem  / @base;
+            }
+        }
+        .body-second{
+            p{
+                font-size: 20rem / @base;
+                color: #f4661c;
+                margin-right: 22rem / @base;
+            }
+            img:nth-child(1){
+                width: 33rem / @base;
+                height: 36rem  / @base;
+            }
+        }
+        .body-third{
+            padding-left: 28rem / @base;
+            img:nth-child(1){
+                width: 46rem / @base;
+                height: 31rem  / @base;
+            }
+        }
+        .body-fourth{
+            img:nth-child(1){
+                width: 32rem / @base;
+                height: 32rem  / @base;
+            }
+        }
+        .body-fifth{
+            img:nth-child(1){
+                width: 37rem / @base;
+                height: 33rem  / @base;
+            }
+        }
+    }
+    .foot{
+        box-shadow: 0 0 10rem / @base rgba(0,0,0,.3);
+        border: none;
+        .shopcar{
+            color: #818181;
+        }
+        .my{
+            color: #f55d00;
+        }
+    }
+}

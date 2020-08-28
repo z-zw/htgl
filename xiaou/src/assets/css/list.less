@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import "./public.css";
+@import "./index.css";
+@base:100;
+.wrap{
+    background-color: #fff;
+    // 头部
+    header{
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        .arrow{
+            img{
+                width: 20rem / @base;
+                height: 35rem / @base;
+            }
+        }
+    }
+        
+    // 搜索
+    .search{
+        padding-top: 6rem / @base;
+        width: 750rem / @base;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        input{
+            background: url("../images/list_images/search.jpg") no-repeat  215rem / @base center ;
+           background-size: 26rem / @base 27rem / @base;
+            border-radius: 50rem / @base;
+            background-color: #f26b11;
+            text-align: center;
+            font-size: 26rem / @base;
+            color: #fff;
+            width: 623rem / @base;
+            height: 77rem / @base;
+        }
+        
+    }
+    .goods{
+        width: 750rem / @base;
+        margin-top: 28rem / @base;
+       padding-bottom: 0;
+       .good{
+        padding-top: 27rem / @base;
+       margin: 0 auto;
+        border-bottom: 1rem / @base solid #d1d1d1;
+           width: 702rem / @base;
+        display: flex;
+        justify-content: space-around;
+        img{
+            margin-top: 24rem / @base;
+            margin-left: 20rem / @base;
+            width: 147rem / @base;
+            height: 160rem / @base;
+        }
+        .text{
+            margin-left: 57rem / @base;
+            line-height: 46rem / @base;
+            p{
+                font-size: 25rem / @base;
+                color: #353535;
+                
+            }
+            span{
+                font-size: 24rem / @base;
+                color: #e6393b;
+                
+            }
+            .first{
+                font-size: 22rem / @base;
+                
+            }
+        }
+       }
+       .item-one{
+           padding-bottom: 138rem / @base;
+        .item{
+            margin-bottom: 180rem / @base;
+ 
+           
+        }
+       }
+       
+        
+    }
+}

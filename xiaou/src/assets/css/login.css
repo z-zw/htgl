@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import "public.css";
+@import "detail.css";
+.wrap header .set b {
+  font-size: 0.26rem;
+  color: #fff;
+}
+.wrap .box {
+  margin: 1.84rem auto;
+  width: 4.5rem;
+  font-size: 0.23rem;
+  color: #333333;
+}
+.wrap .box span {
+  margin-top: 0.38rem;
+  display: inline-block;
+}
+.wrap .box input {
+  width: 4.5rem;
+  height: 0.36rem;
+  border-bottom: 0.02rem solid #a3a3a3;
+  outline: none;
+}
+.wrap .box p {
+  font-size: 0.17rem;
+  margin-top: 0.31rem;
+  margin-right: 0.15rem;
+  color: #666666;
+}
+.wrap .box button {
+  border-radius: 0.1rem;
+  margin-top: 0.3rem;
+  width: 4.5rem;
+  height: 0.75rem;
+  color: #fff;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.75rem;
+  background-color: #f26b11;
+}

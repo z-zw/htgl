@@ -1,0 +1,217 @@
+@charset "utf-8";
+@import "classinfy.css";
+.wrap .address {
+  position: relative;
+  width: 7.5rem;
+  background-color: #fff;
+  color: #686868;
+  margin-bottom: 0.1rem;
+}
+.wrap .address .address-one {
+  width: 6.42rem;
+  margin-left: 0.29rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .address .address-one span {
+  line-height: 0.72rem;
+  font-size: 0.22rem;
+  display: block;
+}
+.wrap .address .first {
+  margin-left: 0.29rem;
+}
+.wrap .address .first p {
+  display: inline-block;
+  font-size: 0.24rem;
+  line-height: 0.29rem;
+  margin-bottom: 0.25rem;
+}
+.wrap .address img {
+  position: absolute;
+  top: 50%;
+  right: 0.3rem;
+  margin-top: -0.13rem;
+  width: 0.19rem;
+  height: 0.26rem;
+}
+.wrap .number {
+  background-color: #fff;
+  width: 7.5rem;
+  margin-bottom: 0.1rem;
+}
+.wrap .number .top img {
+  width: 1.02rem;
+  height: 1.05rem;
+  margin-top: 0.22rem;
+  margin-left: 0.34rem;
+}
+.wrap .number .top span {
+  display: block;
+}
+.wrap .number .top .first {
+  margin-left: 0.28rem;
+  margin-top: 0.42rem;
+}
+.wrap .number .top .first .one {
+  font-size: 0.24rem;
+  color: #626262;
+}
+.wrap .number .top .first .two {
+  font-size: 0.23rem;
+  color: #acacac;
+  line-height: 0.5rem;
+}
+.wrap .number .top .three {
+  margin-top: 0.42rem;
+  margin-right: 0.3rem;
+  font-size: 0.28rem;
+  color: #e7343a;
+}
+.wrap .number .lower {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.31rem 0.38rem;
+  border-bottom: 0.01rem solid #f0f0f0;
+}
+.wrap .number .lower span {
+  color: #676767;
+  font-size: 0.22rem;
+}
+.wrap .number .lower .first {
+  height: 0.65rem;
+  border: 0.01rem solid #535353;
+  border-radius: 0.05rem;
+  text-align: center;
+  line-height: 0.67rem;
+}
+.wrap .number .lower .first span {
+  display: inline-block;
+  font-size: 0.23rem;
+}
+.wrap .number .lower .first .one {
+  width: 0.73rem;
+  height: 0.65rem;
+  border-right: 0.01rem solid #535353;
+}
+.wrap .number .lower .first .two {
+  width: 1.17rem;
+  height: 0.65rem;
+  border-right: 0.01rem solid #535353;
+}
+.wrap .number .lower .first .three {
+  width: 0.73rem;
+  height: 0.65rem;
+}
+.wrap .number .transport {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.31rem;
+}
+.wrap .number .transport span {
+  font-size: 0.23rem;
+  color: #616161;
+  line-height: 0.98rem;
+}
+.wrap .center {
+  width: 7.5rem;
+  background-color: #fff;
+  margin-bottom: 0.1rem;
+}
+.wrap .center .transport {
+  border-bottom: 0.01rem solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.31rem;
+}
+.wrap .center .transport span {
+  font-size: 0.23rem;
+  color: #616161;
+  line-height: 0.98rem;
+}
+.wrap .center .first {
+  width: 1.53rem;
+  height: 0.74rem;
+  border: 0.01rem solid #dcdcdc;
+  font-size: 0.24rem;
+  color: #dcdcdc;
+  text-align: center;
+  line-height: 0.74rem;
+  border-radius: 0.05rem;
+  margin-left: 1.9rem;
+}
+.wrap .center .second {
+  width: 0.74rem;
+  height: 0.74rem;
+  background-color: #f26b11;
+  color: #fff;
+  font-size: 0.24rem;
+  text-align: center;
+  line-height: 0.74rem;
+  border-radius: 0.05rem;
+}
+.wrap .center p {
+  font-size: 0.23rem;
+  color: #616161;
+}
+.wrap .center p .text {
+  color: #d22c3a;
+}
+.wrap .item {
+  width: 7.5rem;
+  background-color: #fff;
+  padding: 0.25rem 0;
+  border-bottom: 0.01rem solid #efefef;
+}
+.wrap .item .transport {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.31rem;
+}
+.wrap .item .transport span {
+  font-size: 0.23rem;
+  color: #616161;
+  line-height: 0.43rem;
+}
+.wrap .item .transport .right {
+  color: #d03636;
+}
+.wrap .orders {
+  width: 7.5rem;
+  background-color: #fff;
+  text-align: right;
+  padding-top: 0.52rem;
+  padding-bottom: 1.3rem;
+}
+.wrap .orders p {
+  margin-right: 0.37rem;
+  margin-bottom: 0.44rem;
+  font-size: 0.35rem;
+  color: #686868;
+}
+.wrap .orders p span {
+  font-size: 0.3rem;
+  color: #d64645;
+}
+.wrap .orders .orders-one {
+  margin: 0 auto;
+  width: 3.55rem;
+  height: 1.12rem;
+  background-color: #f26b11;
+  font-size: 0.3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.12rem;
+}
+.wrap .foot .home-page,
+.wrap .foot .my {
+  color: #818181;
+}
+.wrap .foot .shopcar {
+  color: #ff5900;
+}

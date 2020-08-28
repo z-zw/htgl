@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import "public.css";
+@import "detail.css";
+.brand {
+  width: 7.5rem;
+  background-color: #fff;
+}
+.brand ul {
+  height: 100vh;
+  border-right: 0.01rem solid #d9d9d9;
+  padding-top: 0.4rem;
+  width: 1.63rem;
+}
+.brand ul li {
+  height: 0.52rem;
+  font-size: 0.25rem;
+  text-align: center;
+  line-height: 0.52rem;
+  margin-bottom: 0.62rem;
+  color: #666;
+}
+.brand ul .first {
+  border-left: 0.08rem solid #f26b11;
+  color: #f46914;
+}
+.brand .item {
+  width: 5.84rem;
+  background-color: #fff;
+}
+.brand .item .box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0.56rem;
+  margin-bottom: 0.48rem;
+}
+.brand .item .box span {
+  display: block;
+}
+.brand .item .box .one {
+  font-size: 0.24rem;
+  color: #464646;
+  margin-left: 0.55rem;
+}
+.brand .item .box .two {
+  font-size: 0.22rem;
+  color: #666;
+  margin-right: 0.44rem;
+}
+.brand .item .myimage {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.brand .item .myimage p {
+  color: #878787;
+  font-size: 0.23rem;
+  text-align: center;
+  margin-top: 0.22rem;
+  margin-bottom: 0.36rem;
+}
+.brand .item .myimage img {
+  width: 1.5rem;
+  height: 1.48rem;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import "public.css";
+@import "index.css";
+.wrap {
+  background-color: #fff;
+}
+.wrap header {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+.wrap header .arrow img {
+  width: 0.2rem;
+  height: 0.35rem;
+}
+.wrap .search {
+  padding-top: 0.06rem;
+  width: 7.5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.wrap .search input {
+  background: url("../images/list_images/search.jpg") no-repeat 2.15rem center;
+  background-size: 0.26rem 0.27rem;
+  border-radius: 0.5rem;
+  background-color: #f26b11;
+  text-align: center;
+  font-size: 0.26rem;
+  color: #fff;
+  width: 6.23rem;
+  height: 0.77rem;
+}
+.wrap .goods {
+  width: 7.5rem;
+  margin-top: 0.28rem;
+  padding-bottom: 0;
+}
+.wrap .goods .good {
+  padding-top: 0.27rem;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid #d1d1d1;
+  width: 7.02rem;
+  display: flex;
+  justify-content: space-around;
+}
+.wrap .goods .good img {
+  margin-top: 0.24rem;
+  margin-left: 0.2rem;
+  width: 1.47rem;
+  height: 1.6rem;
+}
+.wrap .goods .good .text {
+  margin-left: 0.57rem;
+  line-height: 0.46rem;
+}
+.wrap .goods .good .text p {
+  font-size: 0.25rem;
+  color: #353535;
+}
+.wrap .goods .good .text span {
+  font-size: 0.24rem;
+  color: #e6393b;
+}
+.wrap .goods .good .text .first {
+  font-size: 0.22rem;
+}
+.wrap .goods .item-one {
+  padding-bottom: 1.38rem;
+}
+.wrap .goods .item-one .item {
+  margin-bottom: 1.8rem;
+}

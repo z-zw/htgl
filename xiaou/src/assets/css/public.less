@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import "./normalize.css";
+@import "./reset.css";
+body{
+    font-size: 12px ;
+    line-height: 1;
+    background-color: #f1f1f1;
+}
+@base:100;
+.wrap{
+    width: 750rem / @base;
+    margin: 0 auto;
+    // 底部菜单开始
+    .foot{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 750rem / @base;
+        height: 120rem / @base;
+        border-top: 1rem / @base solid #eaeaea;
+        background-color: #fff;
+        font-size: 20rem / @base;
+        text-align: center;
+        img{
+            width: 49rem / @base;
+            height: 53rem / @base;
+        }
+        p{
+            margin-top: 13rem / @base;
+        }
+        .home-page{
+            color: #f9570c;
+        }
+        .item{
+            color: #828282;
+        }
+    }
+}

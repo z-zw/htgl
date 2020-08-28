@@ -1,0 +1,317 @@
+@charset "utf-8";
+@import "./public.css";
+@import "./index.css";
+@base:100;
+
+.wrap{
+    header{
+        background-color: #f26b11;
+            img{
+                width: 15rem / @base;
+                height: 28rem / @base;
+            }
+            .text{
+                color: #fff;
+                font-size: 32rem / @base;
+            }
+            .set{
+                span{
+                    background-color: #fff;
+                }
+            }
+            
+        }
+        // 商品详情
+        .introduce{
+            width: 750rem / @base;
+            height: 748rem / @base;
+            background-image: url("../images/detail_images/pic_1.jpg"),url("../images/detail_images/pic_2.jpg");
+           background-repeat: no-repeat;
+           background-size: 100% 374rem / @base,100% 374rem / @base;
+           background-position: 0 0,0 374rem / @base;
+        }
+        // 商品名
+        .name{
+            width: 750rem / @base;
+            background-color: #fff;
+           margin-bottom: 17rem / @base;
+           padding-top: 23rem / @base;
+            p{
+                font-size: 30rem / @base;
+                color: #343434;
+                line-height: 48rem / @base;
+                
+                margin-left: 36rem  / @base;
+            }
+            span{
+                line-height: 81rem / @base;
+                margin-left: 36rem  / @base;
+            }
+            .text{
+                font-size: 24rem / @base;
+                color: #e3393a;
+            }
+            .explain{
+                font-size: 21rem / @base;
+                color: #878787;
+            }
+        }
+        // 商品属性
+        .attribute{
+            width: 750rem / @base;
+            background-color: #fff;
+            .upper{
+                width: 100%;
+                height: 98rem / @base;
+                border-bottom: 1rem / @base solid #f1f1f1;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+               
+                .item{
+                    span{
+                        display: inline-block;
+                        color: #464646;
+                        margin-left: 25rem / @base;
+                    }
+                    .text{
+                        font-size: 26rem / @base;
+                        margin-right: 28rem / @base;
+                    }
+                    .text-one{
+                        margin-right: 15rem / @base;
+                        font-size: 20rem / @base;
+                        text-align: center;
+                        line-height: 37rem / @base;
+                        border-radius: 5rem / @base;
+                        color: #b0281a;
+                        width: 66rem / @base;
+                        height: 37rem / @base;
+                        border: 1rem / @base solid #b0281a;
+                    }
+                    .text-two{
+                        font-size: 24rem / @base;
+                    }
+                }
+                .image{
+                    img{
+                        width: 24rem / @base;
+                        height: 14rem / @base;
+                        margin-right: 21rem / @base;
+                    }
+                }
+            }
+            .center{
+                border-bottom: 1rem / @base solid #f1f1f1;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 108rem / @base;
+                p{
+                    color: #464646;
+                    font-size: 26rem / @base;
+                    margin-left: 25rem / @base;
+                }
+                .number{
+                    width: 210rem / @base;
+                    height: 57rem / @base;
+                    border: 1rem / @base solid #515151;
+                    border-radius: 5rem / @base;
+                    text-align: center;
+                    line-height: 57rem / @base;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 21rem / @base;
+                    span{
+                        display: inline-block;
+                        font-size: 20rem / @base;
+                    }
+                    span:nth-child(1){
+                        width: 62rem / @base;
+                        border-right: 1rem / @base solid #515151;
+                    }
+                    span:nth-child(2){
+                        width: 79rem / @base;
+                        border-right: 1rem / @base solid #515151;
+                    }
+                    span:nth-child(3){
+                        width: 67rem / @base;
+                    }
+                }
+            }
+            .lower{
+               
+               
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 190rem / @base;
+                p{
+                    color: #464646;
+                    font-size: 26rem / @base;
+                    margin-left: 25rem / @base;
+                }
+                span{
+                    display: inline-block;
+                    font-size: 22rem / @base;
+                    margin-top: 28rem / @base;
+                    border-radius: 5rem / @base;
+                }
+                .item{
+                    color: #b5b5b5;
+                    margin-right: 70rem / @base;
+                    margin-left: 25rem / @base;
+                }
+                .item-one{
+                    background-color: #e43a3d;
+                    color: #fff;
+                    text-align: center;
+                    margin-right: 15rem / @base;
+                    line-height: 59rem / @base;
+                    width: 150rem / @base;
+                    height: 59rem / @base;
+
+                }
+                .item-two{
+                    width: 117rem / @base;
+                    height: 59rem / @base;
+                    background-color: #e1e1e3;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 59rem / @base;
+                }
+                img{
+                    width: 24rem / @base;
+                        height: 14rem / @base;
+                        margin-right: 21rem / @base;
+                }
+            }
+        }
+        .explain{
+            width: 750rem  / @base;
+            margin-top: 21rem / @base;
+            background-color: #fff;
+            
+            .text{
+
+                span{
+                    margin-left: 25rem / @base;
+                    color: #464646;
+                    font-size: 26rem / @base;
+                    line-height: 100rem / @base;
+                }
+                .image{
+                    margin-bottom: 30rem / @base;
+                    img{
+                        width: 750rem / @base;
+                    }
+                    img:nth-child(2){
+                        margin-top: -1rem / @base;
+                    }
+                }
+            }
+        }
+        .evaluate{
+            width: 750rem / @base;
+            background-color: #fff;
+            margin-bottom: 115rem / @base;
+            .text{
+                width: 702rem / @base;
+                margin: 0 auto;
+                border-bottom: 1rem / @base solid #eee;
+                span{
+                    line-height: 93rem / @base;
+                  
+                    color: #464646;
+                    font-size: 26rem / @base;
+                }
+            }
+            .item{
+                width: 702rem / @base;
+                margin: 0 auto;
+                border-bottom: 1rem / @base solid #eee;
+               
+                span{
+                    color: #676767;
+                    font-size: 20rem / @base;
+                   
+                   line-height: 77rem / @base;
+                    display: block;
+                }
+                p{
+                   
+                    color: #454545;
+                    font-size: 25rem / @base;
+                    line-height: 38rem / @base;
+                }
+                .image{
+                    
+                    margin-top: 27rem / @base;
+                    img{
+                        float: left;
+                        display: block;
+                        width: 154rem / @base;
+                        height: 151rem / @base;
+                    }
+                }
+                .time{
+                    color: #999;
+                    font-size: 20rem / @base;
+                    margin-top: 37rem / @base;
+                    padding-bottom: 30rem / @base;
+                } 
+               
+            }
+            .box{
+                display: flex;
+                justify-content: space-between;
+                width: 702rem / @base;
+                margin: 0 auto;
+                span{
+                    font-size: 22rem / @base;
+                    color: #999;
+                    line-height: 91rem / @base;
+                }
+            }
+        }
+        .foot{
+            height: 114rem / @base;
+            .car{
+                margin: 0 auto;
+                position: relative;
+                p{
+                    color: #878787;
+                    font-size: 18rem / @base;
+                }
+                span{
+                    position: absolute;
+                    width: 24rem / @base;
+                    height: 24rem / @base;
+                    background-color: #e6393b;
+                    display: block;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 24rem / @base;
+                    font-size: 14rem / @base;
+                    color: #fff;
+                    top: 0;
+                    right: 0;
+                }
+            }
+            .item{
+                width: 290rem / @base;
+                background-color: #f26b11;
+                color: #fff;
+                line-height: 114rem / @base;
+               
+            }
+            .items{
+                width: 288rem / @base;
+                line-height: 114rem / @base;
+                background-color: #e43a3d;
+                color: #fff;
+            }
+        }
+    }
